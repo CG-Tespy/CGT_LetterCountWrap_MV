@@ -2,14 +2,11 @@ declare namespace CGT
 {
     namespace LeCoWr
     {
-        class LCBWrapper extends CGT.WWCore.WordWrapper
-        {
-            constructor(overflowFinder?: CGT.WWCore.WordWrapper);
-        }
 
         class WrapParams
         {
-            
+            get LetterCountMax(): number;
+            set LetterCountMax(value);
         }
 
         let Params: WrapParams;
