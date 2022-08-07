@@ -17,4 +17,4 @@ function RegisterWrapper()
     CGT.WWCore.RegisterWrapper(lcbWrapper);
 }
 
-CGT.WWCore.UpdateActiveWrapper(); // For when this plugin's supposed to handle wrapping
+CGT.WWCore.UpdateActiveWrappers(); // For when this plugin's supposed to handle wrapping
