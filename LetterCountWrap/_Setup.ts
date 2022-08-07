@@ -1,6 +1,6 @@
 import { lcbParams } from './PluginParamSetup/_PluginParamSetup';
-import { LetterCountLineWrapper } from './Structures/LetterCountLineWrapper';
-import { LetterCountWrapper } from './Structures/LetterCountWordWrapper';
+import { LCLineWrapper } from './Structures/LCLineWrapper';
+import { LCWrapper } from './Structures/LCWrapper';
 
 export let LeCoWr = 
 {
@@ -11,8 +11,8 @@ RegisterWrapper();
 
 function RegisterWrapper()
 {
-    let lineWrapper = new LetterCountLineWrapper();
-    let lcbWrapper = new LetterCountWrapper(lineWrapper);
+    let lineWrapper = new LCLineWrapper();
+    let lcbWrapper = new LCWrapper(lineWrapper);
 
     CGT.WWCore.RegisterWrapper(lcbWrapper);
 }

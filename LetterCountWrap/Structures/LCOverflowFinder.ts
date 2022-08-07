@@ -1,8 +1,8 @@
-import { LetterCountTextMeasurer } from './LetterCountTextMeasurer';
+import { LCTextMeasurer } from './LCTextMeasurer';
 
 let OverflowFinder = CGT.WWCore.Overflow.OverflowFinder;
 
-export class LetterCountOverflowFinder extends OverflowFinder
+export class LCOverflowFinder extends OverflowFinder
 {
     protected RegularWrapSpace(args: IOverflowFindArgs): number
     {
@@ -22,7 +22,7 @@ export class LetterCountOverflowFinder extends OverflowFinder
     constructor()
     {
         super();
-        this.textMeasurer = new LetterCountTextMeasurer();
+        this.textMeasurer = new LCTextMeasurer();
     }
 }
 
