@@ -8,7 +8,8 @@
 * set as the wrapper right away, set the WordWrapCore's Wrapper param to 
 * "letterCount".
 *
-* Recommended WordWrapCore settings changes for this plugin (tested with the Amaranth font):
+* Recommended WordWrapCore settings changes for this plugin 
+* (tested with the Amaranth font):
 * SidePadding: 1
 * MugshotWidth: 10
 * MugshotPadding: 1
